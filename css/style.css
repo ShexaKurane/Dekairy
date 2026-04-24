@@ -1,0 +1,35 @@
+@import url(tema.css);
+@import url(index.css);
+
+body {
+    background-color: var(--white);
+    color: var(--carbon);
+    font-family: var(--body);
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: var(--title);
+    color: var(--black);
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#footer-content {
+    color: var(--white);
+    font-family: var(--title);
+    text-align: center
+}
+
+#footer-content p {
+    width: fit-content;
+}

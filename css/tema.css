@@ -1,0 +1,36 @@
+@import url(https://db.onlinewebfonts.com/c/8be4a2f403c2dc27187d892cca388e24?family=Britannic+Bold);
+
+@font-face {
+    font-family: "Britannic Bold";
+    src: url("https://db.onlinewebfonts.com/t/8be4a2f403c2dc27187d892cca388e24.eot");
+    src: url("https://db.onlinewebfonts.com/t/8be4a2f403c2dc27187d892cca388e24.eot?#iefix")format("embedded-opentype"),
+    url("https://db.onlinewebfonts.com/t/8be4a2f403c2dc27187d892cca388e24.woff2")format("woff2"),
+    url("https://db.onlinewebfonts.com/t/8be4a2f403c2dc27187d892cca388e24.woff")format("woff"),
+    url("https://db.onlinewebfonts.com/t/8be4a2f403c2dc27187d892cca388e24.ttf")format("truetype"),
+    url("https://db.onlinewebfonts.com/t/8be4a2f403c2dc27187d892cca388e24.svg#Britannic Bold")format("svg");
+}
+
+:root {
+  --primary: #ff0000;
+  --primary2: #700000;
+  --secondary: #5dad01;
+  --contrast: #2d5700;
+  --contrast2: #68c400;
+  --info: #3fc1bd;
+  --light: #f9ebe0;
+  --white: #ffffff;
+  --black: #000000;
+  --success: #7fff7f;
+  --success2: #98f098;
+  --warning: #ffff99;
+  --warning2: #fcfcb6;
+  --alert: #ff657c;
+  --alert2: rgb(253, 143, 160);
+  --carbon: #333333;
+  --gray: #cccccc;
+
+  --title: 'Britannic Bold', sans-serif;
+  --subtitle: 'calibri', sans-serif;
+  --body: 'calibri', sans-serif;
+  --menu: 'Britannic Bold', sans-serif;
+}
